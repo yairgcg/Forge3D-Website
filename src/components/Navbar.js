@@ -1,4 +1,5 @@
-import React, { useState, useContext } from "react";
+// Navbar.js
+import React, { useState, useContext, useEffect } from "react";
 import { Navbar, Nav, Container, Form, FormControl } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { AiOutlineSearch, AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser } from "react-icons/ai";
@@ -10,9 +11,16 @@ import logo from "../Assets/3DForge.png";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const { setSearchTerm } = useContext(SearchContext);  // Contexto para actualizar el término de búsqueda
-  const [search, setSearch] = useState("");
+  const { setSearchTerm } = useContext(SearchContext);  // Usamos el contexto para acceder a setSearchTerm
+  const [search, setSearch] = useState("");  // Estado local para controlar la entrada del buscador
   const navigate = useNavigate(); // Para redirigir
+
+  useEffect(() => {
+    if (search) {
+      // Solo redirige si el término de búsqueda no está vacío
+      navigate("/search");
+    }
+  }, [search]);  // Dependencia de 'search' para redirigir
 
   // Actualiza el color de la barra de navegación al hacer scroll
   function scrollHandler() {
@@ -28,9 +36,12 @@ function NavBar() {
   // Maneja el evento de búsqueda
   const handleSearch = (e) => {
     e.preventDefault();
-    setSearchTerm(search); // Guarda el término de búsqueda en el contexto
-    navigate("/search"); // Redirige a la página de resultados
-  };
+    console.log("Término ingresado antes de setSearchTerm:", search); 
+    setSearchTerm(search);
+    console.log("Redirigiendo a /search..."); 
+    navigate("/search");
+};
+
 
   return (
     <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
@@ -72,7 +83,6 @@ function NavBar() {
             </Nav.Item>
           </Nav>
 
-          {/* Barra de búsqueda */}
           <Form className="d-flex ms-3" onSubmit={handleSearch}>
             <FormControl
               type="search"

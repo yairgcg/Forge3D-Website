@@ -1,20 +1,93 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { AiFillGithub, AiFillFacebook } from "react-icons/ai";
 import { FaTiktok } from "react-icons/fa";
-import SubscriptionForm from "./SubscriptionForm";
 
 function Footer() {
   let year = new Date().getFullYear();
 
+  // Estado del formulario
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  // Manejo de cambios en los inputs
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  // Manejo del envío del formulario
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Formulario enviado:", formData);
+    // Aquí podrías agregar una función para enviar los datos a un backend
+  };
+
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright d-flex align-items-center justify-content-center">
-          <h3>Diseñado y Desarrollado por Forge3D</h3>
+
+        {/* Formulario de Contacto */}
+        <Col md="12" className="d-flex flex-column align-items-center">
+          <h2 className="text-center mb-4" style={{ color: "white" }}>Contáctanos</h2>
+          <Form onSubmit={handleSubmit} style={{ maxWidth: "500px", width: "100%" }}>
+            <Form.Group className="mb-3">
+              <Form.Label style={{ color: "white" }}>Nombre</Form.Label>
+              <Form.Control
+                type="text"
+                name="name"
+                placeholder="Ingresa tu nombre"
+                value={formData.name}
+                onChange={handleChange}
+                required
+                style={{ maxWidth: "400px", margin: "0 auto" }}
+              />
+            </Form.Group>
+
+            <Form.Group className="mb-3">
+              <Form.Label style={{ color: "white" }}>Correo Electrónico</Form.Label>
+              <Form.Control
+                type="email"
+                name="email"
+                placeholder="Ingresa tu correo"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                style={{ maxWidth: "400px", margin: "0 auto" }}
+              />
+            </Form.Group>
+
+            <Form.Group className="mb-3">
+              <Form.Label style={{ color: "white" }}>Mensaje</Form.Label>
+              <Form.Control
+                as="textarea"
+                name="message"
+                rows={4}
+                placeholder="Escribe tu mensaje"
+                value={formData.message}
+                onChange={handleChange}
+                required
+                style={{ maxWidth: "400px", margin: "0 auto" }}
+              />
+            </Form.Group>
+
+            <Button variant="primary" type="submit" className="w-100" style={{ maxWidth: "400px", marginBottom: "20px", marginLeft: "auto", marginRight: "auto" }}>
+              Enviar Mensaje
+            </Button>
+
+
+          </Form>
         </Col>
 
+        {/* Texto "Diseñado y Desarrollado" alineado correctamente */}
+        <Col md="4" className="footer-copywright d-flex justify-content-center align-items-center">
+          <h3 style={{ color: "white" }}>Diseñado y Desarrollado por Forge3D</h3>
+        </Col>
+
+        {/* Links de Políticas */}
         <Col md="4" className="footer-links d-flex justify-content-center align-items-center">
           <Link to="/faq" style={{ color: "white", textDecoration: "none", fontWeight: "bold", margin: "0 10px" }}>
             Preguntas Frecuentes
@@ -27,16 +100,12 @@ function Footer() {
           </Link>
         </Col>
 
-        <Col md="4" className="footer-copywright d-flex align-items-center justify-content-center">
-          <h3>Copyright © {year} Forge3D</h3>
+        {/* Texto "Copyright" alineado correctamente */}
+        <Col md="4" className="footer-copywright d-flex justify-content-center align-items-center">
+          <h3 style={{ color: "white" }}>Copyright © {year} Forge3D</h3>
         </Col>
 
-        <Col md="12" className="footer-subscription d-flex flex-column align-items-center mt-3">
-          <h4 style={{ color: "white" }}>¡Suscríbete a nuestro boletín!</h4>
-          <SubscriptionForm />
-        </Col>
-
-
+        {/* Redes sociales */}
         <Col md="12" className="footer-body d-flex justify-content-center mt-3">
           <ul className="footer-icons d-flex gap-3 list-unstyled">
             <li className="social-icons">

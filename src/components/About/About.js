@@ -4,6 +4,8 @@ import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
 import laptopImg from "../../Assets/about.png";
+import Brandon from "../../Assets/Brandon Avatar.png";
+import Daniel from "../../Assets/Doni Avatar.png";
 
 function About() {
   return (
@@ -31,7 +33,7 @@ function About() {
               Nuestro equipo está compuesto por apasionados del diseño, la programación y la animación, con experiencia en herramientas como
               <strong>Blender, Maya, Unity, Unreal Engine, Photoshop y más</strong>. Nos enfocamos en ofrecer experiencias visuales impactantes
               y altamente funcionales para nuestros clientes.
-            </p>          
+            </p>
             <h2>Nuestra
               <strong className="purple"> Misión</strong>
             </h2>
@@ -50,8 +52,8 @@ function About() {
             </p>
             <br />
 
-            <h2>Nuestros 
-                <strong className="purple"> Valores</strong>
+            <h2>Nuestros
+              <strong className="purple"> Valores</strong>
             </h2>
             <ul style={{ textAlign: "justify" }}>
               <li><strong>Innovación:</strong> Buscamos siempre las mejores soluciones creativas y tecnológicas.</li>
@@ -63,11 +65,19 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "50px", paddingBottom: "50px", textAlign: "center" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <div>
+              <img src={Brandon} alt="Brandon" className="img-fluid" style={{ width: "70%", borderRadius: "10px" }} />
+              <h5 className="#f9f8f8" style={{ marginTop: "10px" }}>Brandon</h5>
+            </div>
+            <div style={{ marginTop: "30px" }}>
+              <img src={Daniel} alt="Daniel" className="img-fluid" style={{ width: "70%", borderRadius: "10px" }} />
+              <h5 className="#f9f8f8" style={{ marginTop: "10px" }}>Daniel</h5>
+            </div>
           </Col>
+
         </Row>
 
         <h1 className="project-heading">

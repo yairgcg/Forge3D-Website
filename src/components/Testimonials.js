@@ -9,10 +9,7 @@ function Reviews() {
     { name: "José Rosado", review: "Muy profesionales en su trabajo.", img: "https://i.imgflip.com/2/6k7tby.jpg" },
     { name: "Israel García", review: "¡¡Sus renders están a otro nivel!!", img: "https://www.uttt.edu.mx//ctrlfotos/22300898.jpg" },
     { name: "Ivan Reyes", review: "Grandiosos proyectos de VR/AR", img: "https://www.uttt.edu.mx//ctrlfotos/22300526.jpg" }
-
-
-
-]);
+  ]);
 
   const [newReview, setNewReview] = useState({ name: "", review: "" });
 
@@ -26,7 +23,9 @@ function Reviews() {
 
   return (
     <Container style={{ marginTop: "50px", color: "white" }}>
-      <h2 className="text-center">Reseñas de Clientes</h2>
+      <h2 className="text-center" style={{ marginTop: "80px" }}>
+      <strong className="purple"> Reseñas </strong>
+         de Clientes</h2>
       <Row>
         {reviews.map((r, index) => (
           <Col key={index} md={4} className="d-flex justify-content-center">
@@ -39,7 +38,9 @@ function Reviews() {
         ))}
       </Row>
 
-      <h3 className="text-center mt-4">Deja tu Reseña</h3>
+      <h3 className="text-center mt-5"> 
+      <strong className="purple">Deja </strong>
+        tu Reseña</h3>
       <Form onSubmit={handleSubmit} className="text-center">
         <Form.Group>
           <Form.Label>Nombre</Form.Label>
@@ -48,6 +49,7 @@ function Reviews() {
             value={newReview.name}
             onChange={(e) => setNewReview({ ...newReview, name: e.target.value })}
             required
+            style={{ maxWidth: "400px", margin: "0 auto" }}
           />
         </Form.Group>
         <Form.Group>
@@ -58,10 +60,24 @@ function Reviews() {
             value={newReview.review}
             onChange={(e) => setNewReview({ ...newReview, review: e.target.value })}
             required
+            style={{ maxWidth: "400px", margin: "0 auto" }}
           />
         </Form.Group>
-        <Button type="submit" className="mt-2">Enviar</Button>
+        <Button type="submit" className="mt-2" style={{ marginBottom: "50px" }}>Enviar</Button>
       </Form>
+
+      {/* CTA - Llamada a la acción */}
+      <div className="cta-container text-center mt-5">
+        <p>¿Quieres obtener más información o hacer algún proyecto con nosotros?</p>
+        <Button
+          variant="outline-light"
+          href="/contacto"  // Cambia esta ruta por la página de contacto o formulario relevante
+          size="lg"
+          style={{ marginBottom: "60px" }} // Aquí agregamos un margen inferior
+        >
+          Contáctanos
+        </Button>
+      </div>
 
       <style jsx>{`
         .review-card {
@@ -76,6 +92,11 @@ function Reviews() {
           height: 80px;
           border-radius: 50%;
           margin-bottom: 10px;
+        }
+        .cta-container p {
+          color: white;
+          font-size: 18px;
+          margin-bottom: 20px;
         }
       `}</style>
     </Container>

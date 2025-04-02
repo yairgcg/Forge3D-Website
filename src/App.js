@@ -1,3 +1,4 @@
+// App.js
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
@@ -37,10 +38,10 @@ function App() {
   }, []);
 
   return (
-    <SearchProvider> {/* Envolver la app con SearchProvider */}
-      <Router>
+    <SearchProvider> {/* Envolver la aplicación con SearchProvider */}
+      <Router basename="/Forge3D-Website">
         <Preloader load={load} />
-        <div className="App" id={load ? "no-scroll" : "scroll"}>
+        <div className="App">
           <Navbar />
           <ScrollToTop />
           <Routes>
@@ -51,12 +52,11 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/testimonials" element={<Testimonials />} />
-            <Route path="/search" element={<SearchResults />} /> 
+            <Route path="/search" element={<SearchResults />} /> {/* Página de resultados */}
             <Route path="/faq" element={<FAQ />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/landing" element={<LandingPage />} />
-             
           </Routes>
           <Footer />
         </div>
