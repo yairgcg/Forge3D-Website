@@ -1,0 +1,168 @@
+[33md66b568[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mMain[m[33m)[m Agregando archivos faltantes
+[33m24d955c[m updated resume
+[33m2e2e4bd[m updated about
+[33m20eca94[m updated resume
+[33m5e749e5[m content update and resume update
+[33m909f6e4[m Merge pull request #88 from shoaibsajid1/patch-1
+[33md290a7a[m Update AboutCard.js
+[33m46c2122[m added new resume and fixed navbar link
+[33md8164ca[m Update README.md
+[33m74648fb[m fix: changes in instagram username
+[33mf0a2237[m added new resume
+[33m924723d[m updated resume
+[33m3f14c39[m updated ui images
+[33mc69951b[m Merge pull request #60 from Hiten1708/master
+[33mc4e83de[m Fixed chatify link
+[33mc7dd638[m Merge pull request #56 from cmccoy98/feature/fix-social-media-buttons
+[33m169c4af[m Add button to directly view project
+[33mbac06da[m Add package "react-parallax-tilt" to fix the error
+[33mad716c2[m Added a z-index property to the social media button div to make it render over the tsparticles div, allowing the buttons to be clicked on the About and Projects page.
+[33mf2886f4[m Merge pull request #52 from mspronesti/master
+[33ma7e7182[m fix (routes): redirect to home in case of no path match
+[33mf3eb275[m updated resume
+[33m7396dac[m fix(ui fixes for images and navbar)
+[33m230e513[m Merge pull request #49 from soumyajit4419/packageUpdates
+[33mdb2e43b[m update in packages
+[33m740c246[m updates(Cleaned code | resume update)
+[33m7ffc0c7[m updates(Cleaned code | resume update)
+[33m748205f[m Merge pull request #48 from mspronesti/master
+[33m536d287[m fix(routes: protect from invalid routes; closes #46
+[33m48320f9[m resume update
+[33mcc2a7c7[m fixed errors
+[33mb33bc86[m added new resme
+[33m925dc89[m url update
+[33m2de8653[m Create README.md
+[33mb4def85[m Update README.md
+[33m03d6a8f[m Update README.md
+[33m8c6eeb8[m updated ui of resume
+[33mc004c27[m Added new resume
+[33m32a8fb0[m Merge pull request #33 from soumyajit4419/feature/resume
+[33m848df25[m Merge branch 'master' of https://github.com/soumyajit4419/my_webpage into feature/resume
+[33m760c5c7[m feature(added new resume page)
+[33m97cc33f[m Update in resume
+[33m90f0a5b[m bugs(Home page | UI changes)
+[33m95a5df4[m fixed emoji error
+[33m5051ab5[m Merge pull request #19 from shubham-shahh/master
+[33m1a312f3[m Update Footer.js
+[33m55f30c1[m Merge pull request #18 from CaioAugustoo/patch-1
+[33m86f60ba[m added project and blogs
+[33m4e47ae5[m Fix memory leak
+[33mc42c2bc[m Merge branch 'master' of https://github.com/soumyajit4419/my_webpage
+[33m31a71ee[m resume update
+[33m9cb5bc3[m Merge pull request #14 from soumyajit4419/dependabot/npm_and_yarn/Server/normalize-url-4.5.1
+[33mbbf79d0[m Merge pull request #13 from soumyajit4419/dependabot/npm_and_yarn/Server/glob-parent-5.1.2
+[33m413445b[m Bump normalize-url from 4.5.0 to 4.5.1 in /Server
+[33m06f27b0[m Bump glob-parent from 5.1.1 to 5.1.2 in /Server
+[33m3944e1a[m added project used react icons
+[33me56cf5f[m update in links and resume
+[33m013d906[m Merge branch 'master' of https://github.com/soumyajit4419/my_webpage
+[33md19e61e[m updated projects
+[33mda4f8be[m Merge pull request #7 from ldelavois/patch-1
+[33m74ba1f7[m Update Home2.js
+[33m6e61cad[m fixed github contribution error
+[33m7173985[m update in resume
+[33m3235746[m fixed typos
+[33m85e7358[m fixed typos
+[33mfcf83ff[m ui fixes
+[33m113d1eb[m fixed typo and ui changes
+[33mc3b3fa4[m removed like
+[33m594bd19[m fixed server error and folder strurture
+[33m110b8eb[m fixed folder structre and limiting likes
+[33m907d821[m fixed always loading error and scroll bar position
+[33m39a5f21[m fixed server error
+[33mec359a1[m upadted navbar to previous state and ui fixes
+[33m3c99467[m Merge pull request #2 from aitaDev/master
+[33mf1cd5fb[m Update Navbar.js
+[33m09a8e8a[m fixed typo and links
+[33m23896f6[m updated readme
+[33mae36636[m updated readme
+[33m69b58d2[m updated readme
+[33m76da101[m ui fixes
+[33me2bf3e1[m upadted readme
+[33m264cbd6[m server changes and ui fixes
+[33md022ec2[m upadted meta tags
+[33m2d9f1e7[m ui fixes and readme
+[33mb6acc3d[m upadted complete site with react
+[33m5568bdc[m Create LICENSE.md
+[33m9d81fca[m Delete LICENSE
+[33m78daf4b[m upadte in project ui and frontend fixes
+[33ma3317a2[m upadte in resume
+[33ma00a89f[m update in links
+[33m9b78894[m updated links
+[33m6064615[m upadte in resume
+[33m637ef1f[m update in resume and ui of projects
+[33ma520138[m update in templates
+[33m9609d76[m upadte in css
+[33mfb5caf8[m update in responsiveness and templates
+[33m5cbdefc[m update in certificate and error correction
+[33md129ebc[m added intern
+[33m412ef44[m update in certi
+[33md6311b6[m update in templates and css
+[33mf3bd7d5[m added new template
+[33m0620156[m update in preloder
+[33m0ba43d3[m update in ui
+[33m4f563d7[m update in certi and projects
+[33ma2365f1[m update in projects
+[33mdd920bd[m added certificate and upadte in errors
+[33m9d7934c[m update in project
+[33m2e1320b[m upadte in cetificate gallery style
+[33mfde242e[m update in projects and error in profile
+[33m8595e76[m some update in code
+[33m1d61221[m updated projectcustomer
+[33m9dda4f7[m compress in image
+[33medc8fa7[m update in certificate section
+[33md990fd9[m added some project and skill changes
+[33m706e394[m updated in resume and projects
+[33mcc0b9fe[m updated project section
+[33mf4ab92f[m added sections in projects
+[33m815a4e4[m updated site liitle
+[33mbbe1408[m updated projects section
+[33m160eb41[m updated resume
+[33m180c6c4[m updated mistakes
+[33m9eeabe1[m update in projects
+[33m8a0b0b8[m update in links
+[33ma320808[m Merge pull request #1 from soumyajit4419/add-license-1
+[33me5e7be5[m Create LICENSE
+[33m7b0b421[m added responsive and better perfomance
+[33m0d3a50d[m completed project section
+[33m3b09ac5[m update project and image compress
+[33mb49ad45[m added project page
+[33m612c701[m added about
+[33m15dc539[m added resume and about
+[33m959e813[m added index and contact
+[33m1b2b4a7[m some changes in project
+[33mb2dcda0[m added certificates
+[33m85694fb[m changes in form
+[33m54e918d[m changes in form
+[33m8e07251[m added php form
+[33mea4aedb[m added php form
+[33m76f3abf[m some chnages in form
+[33mbdf8759[m some chnages in projects
+[33m4312879[m Update README.md
+[33m78c4297[m Update README.md
+[33ma6eded0[m Delete CNAME
+[33m521287e[m color in navbar
+[33mea2e6d2[m added icons in navbar
+[33m48df059[m added icons in navbar
+[33mf4f384b[m added certificate
+[33mec0e4e3[m added certificate
+[33m42987c3[m added certi
+[33m231aee2[m Create CNAME
+[33mae021a0[m changed styles
+[33md09390d[m added image
+[33mc834131[m added image
+[33ma61160a[m change in design
+[33m3b6b1ac[m added final things
+[33mc505054[m added style
+[33m2108223[m added contact
+[33m3f77d58[m particle.js modified
+[33m67f8cce[m particle.js added
+[33m94dcf52[m preloader changes
+[33mff7c513[m preloader changes
+[33m1ca9931[m preloader
+[33m628a9d7[m changes in preloader
+[33m32291d0[m added preloader
+[33mbf0684f[m Update README.md
+[33m09e1c96[m Update README.md
+[33m5a987ac[m 1st commit
+[33m92364d8[m Initial commit
