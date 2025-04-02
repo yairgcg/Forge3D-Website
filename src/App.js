@@ -12,7 +12,6 @@ import Testimonials from "./components/Testimonials";
 import { SearchProvider } from "./context/SearchContext"; 
 import SearchResults from "./components/SearchResults";
 import FAQ from "./components/FAC";
-import PrivacyPolicy from "./components/PrivacyPolicy.JS";
 import TermsOfService from "./components/TermsOfService";
 import Privacy from "./components/Privacy";
 import LandingPage from "./components/LandingPage";
