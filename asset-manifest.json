@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Forge3D-Website/static/css/main.0069bed0.css",
-    "main.js": "/Forge3D-Website/static/js/main.471d5669.js",
+    "main.js": "/Forge3D-Website/static/js/main.5e4c71dd.js",
     "static/js/453.ace21015.chunk.js": "/Forge3D-Website/static/js/453.ace21015.chunk.js",
     "static/media/RealidadAumentada.jpg": "/Forge3D-Website/static/media/RealidadAumentada.05fb2dc3de351b4bfbd9.jpg",
     "static/media/Doni Avatar.png": "/Forge3D-Website/static/media/Doni Avatar.191793c09b41bdb57077.png",
@@ -13,7 +13,6 @@
     "static/media/website.jpg": "/Forge3D-Website/static/media/website.1580a8c0929d59eac9f4.jpg",
     "static/media/Modelado.jpg": "/Forge3D-Website/static/media/Modelado.bd5dd60518d869c06245.jpg",
     "static/media/home-main.svg": "/Forge3D-Website/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
-    "static/media/about.png": "/Forge3D-Website/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/Animacion.jpg": "/Forge3D-Website/static/media/Animacion.eedda61eb359b4dab0b4.jpg",
     "static/media/RealidadVirtual.jpeg": "/Forge3D-Website/static/media/RealidadVirtual.170d8d05b51a58b71d4f.jpeg",
     "static/media/home-bg.jpg": "/Forge3D-Website/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
@@ -22,11 +21,11 @@
     "index.html": "/Forge3D-Website/index.html",
     "static/media/pre.svg": "/Forge3D-Website/static/media/pre.4410c5baaa673cc131da.svg",
     "main.0069bed0.css.map": "/Forge3D-Website/static/css/main.0069bed0.css.map",
-    "main.471d5669.js.map": "/Forge3D-Website/static/js/main.471d5669.js.map",
+    "main.5e4c71dd.js.map": "/Forge3D-Website/static/js/main.5e4c71dd.js.map",
     "453.ace21015.chunk.js.map": "/Forge3D-Website/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0069bed0.css",
-    "static/js/main.471d5669.js"
+    "static/js/main.5e4c71dd.js"
   ]
 }
