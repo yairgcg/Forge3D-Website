@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
 import Brandon from "../../Assets/Brandon Avatar.png";
 import Daniel from "../../Assets/Doni Avatar.png";
+import Yair from "../../Assets/Yair Avatar.png";
 
 function About() {
   return (
@@ -23,7 +24,7 @@ function About() {
         />
         <meta name="author" content="3D Forge" />
       </Helmet>
-      
+
       <Container fluid className="about-section">
         <Particle />
         <Container>
@@ -67,18 +68,39 @@ function About() {
               </ul>
             </Col>
             <Col
-              md={5}
+              md={3} // Reduce el ancho del contenedor de avatares
               className="about-img"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "5px" // Reduce el espacio entre ellos
+              }}
             >
-              <div>
-                <img src={Brandon} alt="Brandon" className="img-fluid" style={{ width: "70%", borderRadius: "10px" }} />
-                <h5 className="#f9f8f8" style={{ marginTop: "10px" }}>Brandon</h5>
-              </div>
-              <div style={{ marginTop: "30px" }}>
-                <img src={Daniel} alt="Daniel" className="img-fluid" style={{ width: "70%", borderRadius: "10px" }} />
-                <h5 className="#f9f8f8" style={{ marginTop: "10px" }}>Daniel</h5>
-              </div>
+              {[
+                { src: Brandon, name: "Brandon" },
+                { src: Daniel, name: "Daniel" },
+                { src: Yair, name: "Yair" }
+              ].map((person, index) => (
+                <div key={index} style={{ textAlign: "center", width: "100%", marginBottom: "10px" }}>
+                  <img
+                    src={person.src}
+                    alt={person.name}
+                    className="img-fluid"
+                    style={{
+                      width: "200px",  // Ajustamos el tamaño de la imagen
+                      height: "200px",
+                      borderRadius: "50%",
+                      objectFit: "contain" // Evita recortes en las imágenes
+                    }}
+                  />
+                  <h5 style={{ marginTop: "2px", color: "#f9f8f8" }}>{person.name}</h5>
+                </div>
+              ))}
             </Col>
+
+
           </Row>
           <h1 className="project-heading">
             Habilidades <strong className="purple">Profesionales</strong>
