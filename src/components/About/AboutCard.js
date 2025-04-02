@@ -8,28 +8,23 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            En <span className="purple">3D Forge </span>
+            creemos en el poder de la tecnología para transformar<span className="purple"> ideas </span>
+            en realidades digitales.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Nacimos con la misión de ofrecer
+                <span className="purple">soluciones creativas e innovadoras </span>
+                en 3D, desarrollo web y entornos virtuales para empresas que buscan destacar en la era digital.
+            <br />
+            <br />
+            Nuestro equipo está formado por
+            <span className="purple"> apasionados del diseño</span>             
+             , la programación y la animación, con experiencia            
+            <br />
+            <br />
+  
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}

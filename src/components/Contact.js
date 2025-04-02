@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Container, Form, Button } from "react-bootstrap";
+import React, { useState } from "react";  // Asegúrate de importar useState
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
 function ContactForm() {
   const [formData, setFormData] = useState({

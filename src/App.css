@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.blog-section {
+  padding-top: 100px; /* Ajusta este valor según el tamaño de tu Navbar */
+}

@@ -1,69 +1,61 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
+
+  SiUnity,
+  SiUnrealengine,
+  SiBlender,
+  SiAutodesk,
+  SiAdobe,
+  SiAdobephotoshop,
+  SiAdobeillustrator,
+  SiAdobeaftereffects,
+  SiAdobepremierepro,
+  SiAdobexd,
+  SiHtml5,
+  SiJavascript,
+  SiCss3,
+  SiCsharp,
+  SiPython,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiReact,
+  SiSteam,
+  SiMysql,
+  SiMongodb,
+  SiGit,
+  SiGithub,
+  SiMarkdown,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+
+      {/* Logos de Software y Tecnologías */}
+      <Col xs={4} md={2} className="tech-icons"><SiUnity /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiUnrealengine /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiBlender /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiAutodesk /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiAdobe /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiAdobephotoshop /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiAdobeillustrator /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiAdobeaftereffects /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiAdobepremierepro /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiAdobexd /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiHtml5 /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiCss3 /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiJavascript /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiMarkdown /></Col>     
+      <Col xs={4} md={2} className="tech-icons"><SiCsharp /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiPython /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiReact /></Col>      
+      <Col xs={4} md={2} className="tech-icons"><SiFirebase /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiMysql /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiMongodb /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiGit /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiGithub /></Col>                
+      <Col xs={4} md={2} className="tech-icons"><SiSteam /></Col>          
     </Row>
   );
 }
