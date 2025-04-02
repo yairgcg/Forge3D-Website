@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Forge3D-Website/static/css/main.0069bed0.css",
-    "main.js": "/Forge3D-Website/static/js/main.5e4c71dd.js",
+    "main.js": "/Forge3D-Website/static/js/main.471dc3d4.js",
     "static/js/453.ace21015.chunk.js": "/Forge3D-Website/static/js/453.ace21015.chunk.js",
     "static/media/RealidadAumentada.jpg": "/Forge3D-Website/static/media/RealidadAumentada.05fb2dc3de351b4bfbd9.jpg",
     "static/media/Doni Avatar.png": "/Forge3D-Website/static/media/Doni Avatar.191793c09b41bdb57077.png",
     "static/media/Brandon Avatar.png": "/Forge3D-Website/static/media/Brandon Avatar.d7e7a009a1ea6e0820e8.png",
+    "static/media/Yair Avatar.png": "/Forge3D-Website/static/media/Yair Avatar.b904a4725aa9cf2965f3.png",
     "static/media/Avatar.png": "/Forge3D-Website/static/media/Avatar.75fdf7a200c208cf901b.png",
     "static/media/Topologia.png": "/Forge3D-Website/static/media/Topologia.44386a7c3aa8a5727cfc.png",
     "static/media/Video.png": "/Forge3D-Website/static/media/Video.5dbf4f3cd17fadbb381a.png",
@@ -21,11 +22,11 @@
     "index.html": "/Forge3D-Website/index.html",
     "static/media/pre.svg": "/Forge3D-Website/static/media/pre.4410c5baaa673cc131da.svg",
     "main.0069bed0.css.map": "/Forge3D-Website/static/css/main.0069bed0.css.map",
-    "main.5e4c71dd.js.map": "/Forge3D-Website/static/js/main.5e4c71dd.js.map",
+    "main.471dc3d4.js.map": "/Forge3D-Website/static/js/main.471dc3d4.js.map",
     "453.ace21015.chunk.js.map": "/Forge3D-Website/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0069bed0.css",
-    "static/js/main.5e4c71dd.js"
+    "static/js/main.471dc3d4.js"
   ]
 }
