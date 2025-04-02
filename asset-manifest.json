@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Forge3D-Website/static/css/main.0069bed0.css",
-    "main.js": "/Forge3D-Website/static/js/main.897e1c71.js",
+    "main.js": "/Forge3D-Website/static/js/main.6fad10bf.js",
     "static/js/453.ace21015.chunk.js": "/Forge3D-Website/static/js/453.ace21015.chunk.js",
     "static/media/RealidadAumentada.jpg": "/Forge3D-Website/static/media/RealidadAumentada.05fb2dc3de351b4bfbd9.jpg",
     "static/media/Avatar.png": "/Forge3D-Website/static/media/Avatar.75fdf7a200c208cf901b.png",
@@ -19,11 +19,11 @@
     "index.html": "/Forge3D-Website/index.html",
     "static/media/pre.svg": "/Forge3D-Website/static/media/pre.4410c5baaa673cc131da.svg",
     "main.0069bed0.css.map": "/Forge3D-Website/static/css/main.0069bed0.css.map",
-    "main.897e1c71.js.map": "/Forge3D-Website/static/js/main.897e1c71.js.map",
+    "main.6fad10bf.js.map": "/Forge3D-Website/static/js/main.6fad10bf.js.map",
     "453.ace21015.chunk.js.map": "/Forge3D-Website/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0069bed0.css",
-    "static/js/main.897e1c71.js"
+    "static/js/main.6fad10bf.js"
   ]
 }
