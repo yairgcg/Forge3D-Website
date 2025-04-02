@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
@@ -8,6 +9,12 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
+      <Helmet>
+        <title>Inicio - 3D Forge</title>
+        <meta name="description" content="Explora los proyectos y servicios de 3D Forge, especialistas en tecnologías 3D y desarrollo." />
+        <meta name="keywords" content="3D Forge, tecnologías 3D, desarrollo web, portafolio" />
+      </Helmet>
+
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">

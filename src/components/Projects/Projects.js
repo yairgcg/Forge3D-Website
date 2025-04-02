@@ -8,6 +8,7 @@ import animationImage from "../../Assets/Projects/Animacion.jpg"; // Cambiar con
 import videoEditingImage from "../../Assets/Projects/Video.png";  // Cambiar con la imagen de Edición de Video
 import webDevImage from "../../Assets/Projects/website.jpg";  // Cambiar con la imagen de Desarrollo Web
 import vfx from "../../Assets/Projects/VFX.jpg";
+import { Link } from "react-router-dom"; // Importa Link para la navegación interna
 
 function Projects() {
   return (
@@ -31,7 +32,7 @@ function Projects() {
                   Exploramos experiencias interactivas mediante AR, permitiendo
                   superponer elementos digitales en el mundo real a través de dispositivos móviles.
                 </Card.Text>
-                <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+                <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>            
                   <Button
                     variant="primary"
                     href="https://drive.google.com/drive/folders/1dC5ETa-aomR2464RAAX9gUHeXhzm3PJx?usp=drive_link"
@@ -39,7 +40,7 @@ function Projects() {
                   >
                     Ver Proyectos
                   </Button>
-             
+                  
                 </div>
               </Card.Body>
             </Card>

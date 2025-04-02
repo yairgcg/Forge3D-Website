@@ -1,4 +1,3 @@
-// Navbar.js
 import React, { useState, useContext, useEffect } from "react";
 import { Navbar, Nav, Container, Form, FormControl } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
@@ -36,19 +35,19 @@ function NavBar() {
   // Maneja el evento de búsqueda
   const handleSearch = (e) => {
     e.preventDefault();
-    console.log("Término ingresado antes de setSearchTerm:", search); 
-    setSearchTerm(search);
-    console.log("Redirigiendo a /search..."); 
-    navigate("/search");
-};
-
+    console.log("Término ingresado antes de setSearchTerm:", search);
+    setSearchTerm(search);  // Actualiza el contexto global con el término de búsqueda
+    console.log("Redirigiendo a /search...");
+    navigate("/search");  // Redirige a la página de resultados de búsqueda
+  };
 
   return (
     <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="IMAGEN" />
+        <Navbar.Brand as={Link} to="/" className="d-flex">
+          <img src={logo} className="img-fluid logo" alt="logo" />
         </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => updateExpanded(expand ? false : "expanded")}>
           <span></span>
           <span></span>
@@ -90,7 +89,7 @@ function NavBar() {
               className="me-2"
               aria-label="Search"
               value={search}
-              onChange={(e) => setSearch(e.target.value)}  // Actualiza el estado 'search'
+              onChange={(e) => setSearch(e.target.value)}  // Actualiza el estado 'search' local
             />
             <button type="submit" style={{ background: "none", border: "none" }}>
               <AiOutlineSearch className="search-icon" size={25} />

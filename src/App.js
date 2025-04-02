@@ -16,6 +16,7 @@ import FAQ from "./components/FAC";
 import TermsOfService from "./components/TermsOfService";
 import Privacy from "./components/Privacy";
 import LandingPage from "./components/LandingPage";
+import SearchPage from "./components/SearchPage";
 import {
   BrowserRouter as Router,
   Route,
@@ -57,6 +58,7 @@ function App() {
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/landing" element={<LandingPage />} />
+            <Route path="/search" element={<SearchPage />} />
           </Routes>
           <Footer />
         </div>
